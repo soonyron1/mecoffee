@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-item{
+    height: 32rem;
+}
+
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(20, 20, 20, 0.7);
+    width: 100%;
+    height: 100%;
+}
+.eng{
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+
+.image-good{
+    height: 75%;
+    width: 60%;
+}
+.back_ground{
+    height: 75vh;
+    width: 100%;
+    position: relative;
+    background-image: url(https://images.pexels.com/photos/5812847/pexels-photo-5812847.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.word-caption{
+    font-size: 150px;
+    font-family: 'Oswald', sans-serif;
+}
+.welcome{
+    font-family: 'Akshar', sans-serif;
+    font-family: 'Inconsolata', monospace;
+}
+.box{
+    border-style: solid;
+    border-color: darkorange;
+
+}
+.open{
+    font-size: 100px;
+    font-family: 'Oswald', sans-serif;
+}
+.btn-1{
+    width:200px;
+    height:70px;
+    border:none;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: inset 0 0 0 0 #fefefe;
+    transition: ease-out 0.9s;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    outline: none;
+}
+.btn-1:hover{
+    box-shadow: inset 200px 0 0 0 #6f4e37;
+    cursor: pointer;
+    color: black;
+}
+.btn-2{
+    width:80px;
+    height:40px;
+    border:none;
+    color: #fefefe;
+    background-color: #fe994a;
+    border-radius: 6px;
+    box-shadow: inset 0 0 0 0 #fe994a;
+    transition: ease-out 0.5s;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    outline: none;
+}
+.btn-2:hover{
+    box-shadow: inset 80px 0 0 0 #202020;
+    cursor: pointer;
+    color: white;
+}
+.word-open{
+    font-size: 190px;
+    font-family: 'Oswald', sans-serif;
+}
+.word-caption-mini{
+    font-size: 75px;
+    font-family: 'Square Peg', cursive;
+}
+.word-caption-micro{
+    font-size: 60px;
+    font-family: 'Square Peg', cursive;
+}
+.body1{
+    background-image: url("image/wallpapaer3.png");
+    background-repeat:repeat;
+    background-size: 100%;
+}
+.word-caption-body{
+    font-size: 125px;
+    font-family: 'Oswald', sans-serif;
+}
+.service{
+    background-color: #202020;
+}
+.service-col{
+    background-color: #fefefe;
+}
+.shadow-1{
+    box-shadow:4px 8px 16px 7px #fefefe;
+}
+.img-logo{
+    height: 200px;
+    width: 200px;
+}
+.home{
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url(https://i1.wp.com/www.ilovecooking.ie/wp-content/uploads/2021/04/pexels-chevanon-photography-302899-scaled-6.jpg?fit=1024%2C684&ssl=1);
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+
+}
+.word-index{
+    font-family: 'Indie Flower', cursive;
+}
+.word-overlay{
+    font-family: 'Oswald', sans-serif;
+}
+.btn-3{
+    width:190px;
+    height:60px;
+    border:none;
+    background-color: #121212;
+    color: #fe994a;
+    box-shadow: inset 0 0 0 0 #fefefe;
+    transition: ease-out 1s;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    outline: none;
+    border-radius: 10px;
+}
+.btn-3:hover{
+    box-shadow: inset 200px 0 0 0 #fe994a;
+    cursor: pointer;
+    color: white;
+}
+
+.display-001{
+    font-size: clamp(50px,10vw,120px);
+    font-family: 'Oswald', sans-serif;
+}
+.thai{
+    font-family: 'Prompt', sans-serif;
+}
+.btn-4{
+    width:190px;
+    height:50px;
+    border:none;
+    background-color: #fe994a;
+    color: #fefefe;
+    transition: ease-out 1s;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    outline: none;
+    border-radius: 10px;
+}
+.btn-4:hover{
+    box-shadow: inset 200px 0 0 0 #202020;
+    cursor: pointer;
+    color: #fefefe;
+}
+.text-body{
+    @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
+    font-family: 'Titillium Web', sans-serif;
+}
+.location{
+    background-color: #121212;
+}
+.end{
+    background-color: #202020;
+}
