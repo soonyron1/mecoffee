@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 
 .carousel-item{
@@ -113,6 +114,7 @@
 }
 .service-col{
     background-color: #fefefe;
+    border-radius: 20px;
 }
 .shadow-1{
     box-shadow:4px 8px 16px 7px #fefefe;
@@ -189,4 +191,10 @@
 }
 .end{
     background-color: #202020;
+}
+.image-2{
+    border-radius: 20px;
+}
+.nav{
+    font-family: 'Titillium Web', sans-serif;
 }
